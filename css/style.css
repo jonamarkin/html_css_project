@@ -1,0 +1,46 @@
+body {
+    background-color: #edeffe;
+    font-family: 'Lato', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+article {
+    flex: 1;
+}
+
+section:nth-of-type(2) article {
+    flex: 0 0 33%;
+}
